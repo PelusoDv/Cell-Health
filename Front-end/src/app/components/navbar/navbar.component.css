@@ -1,0 +1,111 @@
+i {
+    font-size: 1.4em;
+    font-style: normal;
+    color: blueviolet;
+    transition: font-size 1s;
+    padding: 0 0 0 15%;
+}
+
+.btn, input {
+    font-size: inherit;
+    transition: font-size 1s;
+}
+
+.bi-search {
+    padding: 0;
+    font-size: 1.1em
+}
+
+.tex{
+    color: azure;
+    font-size: 1rem;
+    vertical-align: text-top
+}
+
+ .mid {
+    display: flex;
+}
+ 
+p {
+    font-size: 1rem;
+    color: azure;
+    margin: 0 0 0 10px;
+}
+
+a {
+    margin-right: 2%;
+}
+
+.container-fluid {
+    margin: 0;
+    flex-wrap: nowrap;
+}
+
+.fir .thi {
+    padding: 0;
+}
+
+button {
+    margin-right: 8px;
+    margin-left: 8px;
+    background: black;
+}
+
+.srch {
+    margin-left: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.me-2 {
+    margin-right: 0 !important;
+    border-radius: 10px 0 0 10px;
+}
+
+.one {
+    font-size: medium;
+    color: azure;
+}
+
+form {
+    width: 25%;
+    min-width: 200px;
+}
+
+.fir, .thi {
+    padding: 0;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color:blueviolet ;
+    --bs-nav-link-color:black ;
+}
+
+@media (max-width: 576px) {
+    i {
+        font-size: 1.1em;
+        transition: font-size 1s;
+    }
+
+    .mid {
+        padding-left: 20px;
+    }
+
+    .navbar-toggler {
+        margin: 8px;
+        margin-right: 16px;
+        background-color: blueviolet;
+        border-color: black;
+    }
+
+    .navbar-toggler-icon {
+        margin-left: -2px;
+        margin-right: -2px;
+        height: 1.2em;
+        font-size: large;
+    }
+
+    .btn, input {
+        font-size: small;
+        transition: font-size 1s;
+    }
+}
